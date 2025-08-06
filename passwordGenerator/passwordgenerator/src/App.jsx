@@ -105,7 +105,7 @@ function App() {
         </div>
         {copied && (
           <div className="text-green-400 text-sm mt-2 animate-fade flex items-center justify-center">
-            ✅ Copied!
+            Copied!
           </div>
         )}
 
