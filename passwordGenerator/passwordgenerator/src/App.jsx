@@ -5,7 +5,7 @@ import './App.css'
 
 
 function App() {
-  const [length, setLength] = useState(8);
+  const [length, setLength] = useState(6);
   const [numbAllowed, setNumberAllowed] = useState(false);
   const [charAllowed, setCharAllowed] = useState(false);
   const [password, setPassword] = useState("")
@@ -105,7 +105,7 @@ function App() {
         </div>
         {copied && (
           <div className="text-green-400 text-sm mt-2 animate-fade flex items-center justify-center">
-            ✅ Copied!
+             Copied!
           </div>
         )}
 
